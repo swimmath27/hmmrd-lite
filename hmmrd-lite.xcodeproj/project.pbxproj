@@ -52,6 +52,7 @@
 		55FA93C61EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
 		55FA93C71EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
 		55FA93C81EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
+		55FA93CD1EFB64FC00D77E36 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93CC1EFB64FC00D77E36 /* extensions.swift */; };
 		64B5C65494347E5B17F9E979 /* Pods_hmmrd_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E36C5B6B615928C29ECFE7 /* Pods_hmmrd_lite.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,7 @@
 		55FA93A21EFB616400D77E36 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		55FA93A31EFB616400D77E36 /* start game button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start game button.png"; sourceTree = "<group>"; };
 		55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		55FA93CC1EFB64FC00D77E36 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		5F68FA90075D88946CB64A0D /* Pods-hmmrd-liteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		61B0D06852FA9EF4C7C3482A /* Pods-hmmrd-liteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8436EF7EC9B2FEA6FC2E7418 /* Pods_hmmrd_liteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmmrd_liteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +194,7 @@
 				55FA935D1EFB58BD00D77E36 /* LaunchScreen.storyboard */,
 				55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */,
 				55FA93601EFB58BD00D77E36 /* Info.plist */,
+				55FA93CC1EFB64FC00D77E36 /* extensions.swift */,
 			);
 			path = "hmmrd-lite";
 			sourceTree = "<group>";
@@ -598,6 +601,7 @@
 			files = (
 				55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */,
 				55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */,
+				55FA93CD1EFB64FC00D77E36 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -852,6 +856,7 @@
 				55FA937B1EFB58BD00D77E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FA937C1EFB58BD00D77E36 /* Build configuration list for PBXNativeTarget "hmmrd-liteTests" */ = {
 			isa = XCConfigurationList;
@@ -860,6 +865,7 @@
 				55FA937E1EFB58BD00D77E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55FA937F1EFB58BD00D77E36 /* Build configuration list for PBXNativeTarget "hmmrd-liteUITests" */ = {
 			isa = XCConfigurationList;
@@ -868,6 +874,7 @@
 				55FA93811EFB58BD00D77E36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
