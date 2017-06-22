@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>697254101306-mklt072c98llqu1oos3eiap4a192k1d3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.697254101306-mklt072c98llqu1oos3eiap4a192k1d3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDzjhonJrzJeWl61Hoa0APzzWgdnwYeLF8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>697254101306</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hmmrdapp.hmmrd-lite</string>
+	<key>PROJECT_ID</key>
+	<string>hmmrd-lite</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hmmrd-lite.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:697254101306:ios:37a6496ad94007b2</string>
+	<key>DATABASE_URL</key>
+	<string>https://hmmrd-lite.firebaseio.com</string>
+</dict>
+</plist>

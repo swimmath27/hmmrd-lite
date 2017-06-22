@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BDC4D9E49A283E28C245643 /* Pods_hmmrd_liteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E239DBDB86F9A58356142594 /* Pods_hmmrd_liteUITests.framework */; };
+		13B492F6FAE0C6AFC19AA2B6 /* Pods_hmmrd_liteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8436EF7EC9B2FEA6FC2E7418 /* Pods_hmmrd_liteTests.framework */; };
 		55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93541EFB58BD00D77E36 /* AppDelegate.swift */; };
 		55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93561EFB58BD00D77E36 /* ViewController.swift */; };
 		55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93581EFB58BD00D77E36 /* Main.storyboard */; };
@@ -47,6 +49,10 @@
 		55FA93C21EFB616500D77E36 /* logi and title.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A11EFB616400D77E36 /* logi and title.png */; };
 		55FA93C31EFB616500D77E36 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A21EFB616400D77E36 /* logo.png */; };
 		55FA93C41EFB616500D77E36 /* start game button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A31EFB616400D77E36 /* start game button.png */; };
+		55FA93C61EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
+		55FA93C71EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
+		55FA93C81EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */; };
+		64B5C65494347E5B17F9E979 /* Pods_hmmrd_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E36C5B6B615928C29ECFE7 /* Pods_hmmrd_lite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1FE4169FA5CB7E8AA2B3FF /* Pods-hmmrd-lite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-lite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-lite/Pods-hmmrd-lite.debug.xcconfig"; sourceTree = "<group>"; };
+		3D77590BF5AC571EF03A25F8 /* Pods-hmmrd-liteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteTests/Pods-hmmrd-liteTests.debug.xcconfig"; sourceTree = "<group>"; };
 		55FA93511EFB58BD00D77E36 /* hmmrd-lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hmmrd-lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FA93541EFB58BD00D77E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FA93561EFB58BD00D77E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,14 @@
 		55FA93A11EFB616400D77E36 /* logi and title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logi and title.png"; sourceTree = "<group>"; };
 		55FA93A21EFB616400D77E36 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		55FA93A31EFB616400D77E36 /* start game button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start game button.png"; sourceTree = "<group>"; };
+		55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		5F68FA90075D88946CB64A0D /* Pods-hmmrd-liteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61B0D06852FA9EF4C7C3482A /* Pods-hmmrd-liteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8436EF7EC9B2FEA6FC2E7418 /* Pods_hmmrd_liteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmmrd_liteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99165C2D5D29BD64512F84C /* Pods-hmmrd-lite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-lite.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-lite/Pods-hmmrd-lite.release.xcconfig"; sourceTree = "<group>"; };
+		BF67C49AA36A09A6B1817AA2 /* Pods-hmmrd-liteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hmmrd-liteTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hmmrd-liteTests/Pods-hmmrd-liteTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1E36C5B6B615928C29ECFE7 /* Pods_hmmrd_lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmmrd_lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E239DBDB86F9A58356142594 /* Pods_hmmrd_liteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hmmrd_liteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B5C65494347E5B17F9E979 /* Pods_hmmrd_lite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13B492F6FAE0C6AFC19AA2B6 /* Pods_hmmrd_liteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDC4D9E49A283E28C245643 /* Pods_hmmrd_liteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +166,8 @@
 				55FA93681EFB58BD00D77E36 /* hmmrd-liteTests */,
 				55FA93731EFB58BD00D77E36 /* hmmrd-liteUITests */,
 				55FA93521EFB58BD00D77E36 /* Products */,
+				5F63120B3F1EFAB5F365F9B8 /* Pods */,
+				E11AC2D4F273AF27EBF7549D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +190,7 @@
 				55FA93581EFB58BD00D77E36 /* Main.storyboard */,
 				55FA935B1EFB58BD00D77E36 /* Assets.xcassets */,
 				55FA935D1EFB58BD00D77E36 /* LaunchScreen.storyboard */,
+				55FA93C51EFB621400D77E36 /* GoogleService-Info-2.plist */,
 				55FA93601EFB58BD00D77E36 /* Info.plist */,
 			);
 			path = "hmmrd-lite";
@@ -233,6 +255,29 @@
 			path = "hmmrd-lite/UI Elements";
 			sourceTree = SOURCE_ROOT;
 		};
+		5F63120B3F1EFAB5F365F9B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1FE4169FA5CB7E8AA2B3FF /* Pods-hmmrd-lite.debug.xcconfig */,
+				A99165C2D5D29BD64512F84C /* Pods-hmmrd-lite.release.xcconfig */,
+				3D77590BF5AC571EF03A25F8 /* Pods-hmmrd-liteTests.debug.xcconfig */,
+				BF67C49AA36A09A6B1817AA2 /* Pods-hmmrd-liteTests.release.xcconfig */,
+				5F68FA90075D88946CB64A0D /* Pods-hmmrd-liteUITests.debug.xcconfig */,
+				61B0D06852FA9EF4C7C3482A /* Pods-hmmrd-liteUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E11AC2D4F273AF27EBF7549D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1E36C5B6B615928C29ECFE7 /* Pods_hmmrd_lite.framework */,
+				8436EF7EC9B2FEA6FC2E7418 /* Pods_hmmrd_liteTests.framework */,
+				E239DBDB86F9A58356142594 /* Pods_hmmrd_liteUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FA93791EFB58BD00D77E36 /* Build configuration list for PBXNativeTarget "hmmrd-lite" */;
 			buildPhases = (
+				5B5690AB87F3BEDC119B6958 /* [CP] Check Pods Manifest.lock */,
 				55FA934D1EFB58BD00D77E36 /* Sources */,
 				55FA934E1EFB58BD00D77E36 /* Frameworks */,
 				55FA934F1EFB58BD00D77E36 /* Resources */,
+				5E2C18FB1D07EE54D1356BD2 /* [CP] Embed Pods Frameworks */,
+				D4FFA1A84EAA00F9DF4AF9CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,9 +305,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FA937C1EFB58BD00D77E36 /* Build configuration list for PBXNativeTarget "hmmrd-liteTests" */;
 			buildPhases = (
+				FF08199B9CE4679CF8482096 /* [CP] Check Pods Manifest.lock */,
 				55FA93611EFB58BD00D77E36 /* Sources */,
 				55FA93621EFB58BD00D77E36 /* Frameworks */,
 				55FA93631EFB58BD00D77E36 /* Resources */,
+				3C01425ABE82F7444672DF63 /* [CP] Embed Pods Frameworks */,
+				CD425F0769AB14975D00AF74 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,9 +326,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55FA937F1EFB58BD00D77E36 /* Build configuration list for PBXNativeTarget "hmmrd-liteUITests" */;
 			buildPhases = (
+				01BABC6E3FC47738323FCA61 /* [CP] Check Pods Manifest.lock */,
 				55FA936C1EFB58BD00D77E36 /* Sources */,
 				55FA936D1EFB58BD00D77E36 /* Frameworks */,
 				55FA936E1EFB58BD00D77E36 /* Resources */,
+				6639390B57629B7AB8F891FB /* [CP] Embed Pods Frameworks */,
+				854551739801AADE9D8B31EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,6 +431,7 @@
 				55FA93BC1EFB616500D77E36 /* tutorial image 4.png in Resources */,
 				55FA93BF1EFB616500D77E36 /* tutorial text 3.png in Resources */,
 				55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */,
+				55FA93C61EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FA93C71EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +447,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55FA93C81EFB621400D77E36 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BABC6E3FC47738323FCA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C01425ABE82F7444672DF63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-liteTests/Pods-hmmrd-liteTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5690AB87F3BEDC119B6958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2C18FB1D07EE54D1356BD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-lite/Pods-hmmrd-lite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6639390B57629B7AB8F891FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854551739801AADE9D8B31EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-liteUITests/Pods-hmmrd-liteUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD425F0769AB14975D00AF74 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-liteTests/Pods-hmmrd-liteTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FFA1A84EAA00F9DF4AF9CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hmmrd-lite/Pods-hmmrd-lite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF08199B9CE4679CF8482096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55FA934D1EFB58BD00D77E36 /* Sources */ = {
@@ -554,6 +749,7 @@
 		};
 		55FA937A1EFB58BD00D77E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1FE4169FA5CB7E8AA2B3FF /* Pods-hmmrd-lite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM7VLH62CK;
@@ -567,6 +763,7 @@
 		};
 		55FA937B1EFB58BD00D77E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99165C2D5D29BD64512F84C /* Pods-hmmrd-lite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SM7VLH62CK;
@@ -580,6 +777,7 @@
 		};
 		55FA937D1EFB58BD00D77E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D77590BF5AC571EF03A25F8 /* Pods-hmmrd-liteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +792,7 @@
 		};
 		55FA937E1EFB58BD00D77E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF67C49AA36A09A6B1817AA2 /* Pods-hmmrd-liteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +807,7 @@
 		};
 		55FA93801EFB58BD00D77E36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F68FA90075D88946CB64A0D /* Pods-hmmrd-liteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "hmmrd-liteUITests/Info.plist";
@@ -621,6 +821,7 @@
 		};
 		55FA93811EFB58BD00D77E36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B0D06852FA9EF4C7C3482A /* Pods-hmmrd-liteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "hmmrd-liteUITests/Info.plist";
