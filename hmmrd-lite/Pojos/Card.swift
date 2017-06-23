@@ -40,6 +40,10 @@ class Card : Equatable {
   fileprivate(set) var successMessage:String = "";
   fileprivate(set) var failureMessage:String = "";
 
+  convenience init () {
+    self.init(suit: .invalid, rank: -1);
+  }
+
   convenience init (suit:Suit, rank:Int) {
     self.init(suit: suit, rank: rank, name: "", instructions: "", description: "", successMessage: "", failureMessage: "");
   }

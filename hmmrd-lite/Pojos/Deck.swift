@@ -101,6 +101,16 @@ class Deck {
     return index < deck.count;
   }
 
+  func currentCard() -> Card {
+    if (index == 0) {
+      return Card();
+    }
+    if (order.count == 0) {
+      return deck[index-1];
+    }
+    return deck[order[index-1]]
+  }
+
   func nextCard() -> Card {
     if self.hasNextCard() {
       index += 1;
