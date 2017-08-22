@@ -62,7 +62,6 @@
 		55FA93D01EFB666F00D77E36 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93CF1EFB666F00D77E36 /* Deck.swift */; };
 		55FA93D21EFB66A100D77E36 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93D11EFB66A100D77E36 /* Card.swift */; };
 		55FA93D91EFCCAA000D77E36 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93D81EFCCAA000D77E36 /* DescriptionViewController.swift */; };
-		55FA93DD1EFCD9E000D77E36 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93DC1EFCD9E000D77E36 /* README.md */; };
 		64B5C65494347E5B17F9E979 /* Pods_hmmrd_lite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E36C5B6B615928C29ECFE7 /* Pods_hmmrd_lite.framework */; };
 /* End PBXBuildFile section */
 
@@ -653,7 +652,6 @@
 				55FA93D01EFB666F00D77E36 /* Deck.swift in Sources */,
 				55928BA91F4BAF8E006A394F /* TriviaViewController.swift in Sources */,
 				55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */,
-				55FA93DD1EFCD9E000D77E36 /* README.md in Sources */,
 				55FA93D21EFB66A100D77E36 /* Card.swift in Sources */,
 				55928BB11F4BC1B8006A394F /* InstructionsViewController.swift in Sources */,
 				55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */,
