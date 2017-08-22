@@ -12,7 +12,7 @@ import Firebase
 import FirebaseDatabase
 
 class Deck {
-  fileprivate(set) static var singleton: Deck = Deck();
+  fileprivate(set) static var singleton: Deck = Deck()
 
   fileprivate var deck = [Card]()
   fileprivate var order:[Int] = [Int]()
@@ -22,15 +22,15 @@ class Deck {
 
   // Called from AppDelegate after firebase is configured.
   func load() {
-    self.getCardsFromFirebase();
+    self.getCardsFromFirebase()
   }
 
   fileprivate func getCardsFromFirebase(){
-    self.ref = Database.database().reference();
+    self.ref = Database.database().reference()
     // load once - don't bother updating during the game.
     self.ref.child("Cards").observeSingleEvent(of: .value, with: { (snapshot) in
-      self.loadCardsFIR(snapshot: snapshot);
-      self.shuffle();
+      self.loadCardsFIR(snapshot: snapshot)
+      self.shuffle()
     }) { (error) in
       print(error.localizedDescription)
     }
@@ -39,86 +39,95 @@ class Deck {
   fileprivate func loadCardsFIR(snapshot: DataSnapshot) {
     objc_sync_enter(deck)
 
-    var headCount:Int = 0;
-    var muscleCount:Int = 0;
-    var moxieCount:Int = 0;
-    var randomCount:Int = 0;
-    var drinkCount:Int = 0;
+    var headCount:Int = 0
+    var muscleCount:Int = 0
+    var moxieCount:Int = 0
+    var randomCount:Int = 0
+    var drinkCount:Int = 0
 
     let cards = snapshot.value as! Array<Any>
     for item in cards {
-      if let card = item as? Dictionary<String, String> {
-        var suit:Card.Suit = .invalid;
-        var rank:Int = 0;
-        switch card["type"]! {
+      if let card = item as? Dictionary<String, Any> {
+        var suit:Card.Suit = .invalid
+        var rank:Int = 0
+        switch card["Type"] as! String {
         case "head":
           headCount+=1
-          rank = headCount;
-          suit = .head;
+          rank = headCount
+          suit = .head
         case "muscle":
           muscleCount+=1
           rank = muscleCount
-          suit = .muscle;
+          suit = .muscle
         case "moxie":
           moxieCount+=1
-          rank = moxieCount;
-          suit = .moxie;
+          rank = moxieCount
+          suit = .moxie
         case "random":
           randomCount+=1
           rank = randomCount
-          suit = .random;
+          suit = .random
         case "drink":
           drinkCount+=1
           rank = drinkCount
-          suit = .drink;
+          suit = .drink
         default:break
         }
-
-        let c = Card(suit: suit,
+        if card["TriviaCategory"] != nil {
+          let c = Card(suit: suit,
                      rank: rank,
-                     name: card["name"]!,
-                     instructions: card["instructions"]!,
-                     description: card["description"]!,
-                     successMessage: card["success"]!,
-                     failureMessage: card["failure"]!)
-        
-        self.deck.append(c)
+                     name: card["Name"] as! String,
+                     description: card["Definition"] as! String,
+                     teammateCount: card["Teammates"] as! Int,
+                     opponentCount: card["Opponents"]as! Int,
+                     triviaCategory: card["TriviaCategory"]as! String)
+          self.deck.append(c)
+        } else {
+          let c = Card(suit: suit,
+                       rank: rank,
+                       name: card["Name"] as! String,
+                       description: card["Definition"] as! String,
+                       teammateCount: card["Teammates"] as! Int,
+                       opponentCount: card["Opponents"]as! Int)
+          self.deck.append(c)
+        }
       }
     }
     objc_sync_exit(deck)
   }
 
   func shuffle() {
-    if (order.count == 0) {
-      for i in 0...(deck.count-1) {
-        order.append(i);
+    print("shuffling")
+    if (order.count != deck.count) {
+      for i in stride(from: order.count, to: deck.count, by: 1) {
+        order.append(i)
       }
     }
     order.shuffle()
   }
 
   func hasNextCard() -> Bool {
-    return index < deck.count;
+    return index < deck.count
   }
 
   func currentCard() -> Card {
     if (index == 0) {
-      return Card();
+      return Card()
     }
     if (order.count == 0) {
-      return deck[index-1];
+      return deck[index-1]
     }
     return deck[order[index-1]]
   }
 
   func nextCard() -> Card {
     if self.hasNextCard() {
-      index += 1;
+      index += 1
     }
     if (order.count == 0) {
-      return deck[index-1];
+      return deck[index-1]
     }
-    return deck[order[index-1]];
+    return deck[order[index-1]]
   }
 
   func undrawCard() {

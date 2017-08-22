@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     FirebaseApp.configure()
     // Need to load the deck AFTER firebase is configured.
     Deck.singleton.load()
+    Trivia.singleton.load()
     return true
   }
 

@@ -8,24 +8,29 @@
 
 import UIKit
 
-class DescriptionViewController: UIViewController {
-  @IBOutlet weak var nextButton: UIButton!
+class TriviaViewController: UIViewController {
 
-  @IBOutlet weak var suitLabel: UILabel!
-  @IBOutlet weak var nameLabel: UILabel!
-  @IBOutlet weak var descriptionLabel: UILabel!
+  @IBOutlet weak var questionLabel: UILabel!
+  @IBOutlet weak var categoryLabel: UILabel!
 
-  var card: Card!
+  var triviaCategory: String = ""
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    card = Deck.singleton.currentCard()
+    triviaCategory = Deck.singleton.currentCard().triviaCategory
+//    if (triviaCategory == "") {
+//      // problem
+//      performSegue(withIdentifier: "TriviaToInstructions", sender: nil)
+//    }
 
-    suitLabel.text = card.suit.name()
-    nameLabel.text = card.name
-    descriptionLabel.text = card.description
+    categoryLabel.text = triviaCategory
 
+    let tq: TriviaQuestion = Trivia.singleton.getQuestion(category: triviaCategory)
+
+    questionLabel.text = tq.question
+
+    
     // Do any additional setup after loading the view.
   }
 
@@ -33,12 +38,9 @@ class DescriptionViewController: UIViewController {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
-  
+
   @IBAction func NextButtonPressed(_ sender: Any) {
-    if (card.triviaCategory != "") {
-      performSegue(withIdentifier: "DescriptionToTrivia", sender: nil)
-    }
-    performSegue(withIdentifier: "DescriptionToInstructions", sender: nil)
+
   }
 
 

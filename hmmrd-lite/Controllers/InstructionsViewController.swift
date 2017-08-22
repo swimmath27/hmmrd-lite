@@ -9,17 +9,17 @@
 import UIKit
 
 class InstructionsViewController: UIViewController {
-
-  @IBOutlet weak var instructionsLabel: UILabel!
+  @IBOutlet weak var numTeammatesLabel: UILabel!
+  @IBOutlet weak var numOpponentsLabel: UILabel!
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
     // This should be the only place where "nextCard" is called.
-    let card:Card = Deck.singleton.nextCard();
+    let card:Card = Deck.singleton.nextCard()
 
-    instructionsLabel.text = card.instructions
-
+    numTeammatesLabel.text = "\(card.teammateCount)"
+    numOpponentsLabel.text = "\(card.opponentCount)"
 
     // Do any additional setup after loading the view.
   }
