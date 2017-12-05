@@ -13,8 +13,9 @@
 		55928BAB1F4BB11A006A394F /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55928BAA1F4BB11A006A394F /* Trivia.swift */; };
 		55928BAF1F4BB1C6006A394F /* TriviaQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55928BAE1F4BB1C6006A394F /* TriviaQuestion.swift */; };
 		55928BB11F4BC1B8006A394F /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55928BB01F4BC1B8006A394F /* InstructionsViewController.swift */; };
-		55928BB41F4BCBC5006A394F /* Opponent.png in Resources */ = {isa = PBXBuildFile; fileRef = 55928BB21F4BCBC5006A394F /* Opponent.png */; };
 		55928BB51F4BCBC5006A394F /* Teammate.png in Resources */ = {isa = PBXBuildFile; fileRef = 55928BB31F4BCBC5006A394F /* Teammate.png */; };
+		55CB53AD1F8DAC6D00253B65 /* ChooseModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB53AC1F8DAC6D00253B65 /* ChooseModeViewController.swift */; };
+		55F727641FD656A10008E652 /* Opponent.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7275D1FD656A10008E652 /* Opponent.png */; };
 		55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93541EFB58BD00D77E36 /* AppDelegate.swift */; };
 		55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93561EFB58BD00D77E36 /* ViewController.swift */; };
 		55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93581EFB58BD00D77E36 /* Main.storyboard */; };
@@ -24,23 +25,6 @@
 		55FA93751EFB58BD00D77E36 /* hmmrd_liteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93741EFB58BD00D77E36 /* hmmrd_liteUITests.swift */; };
 		55FA93A41EFB616400D77E36 /* skip button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93831EFB616400D77E36 /* skip button.png */; };
 		55FA93A51EFB616400D77E36 /* success button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93841EFB616400D77E36 /* success button.png */; };
-		55FA93A61EFB616400D77E36 /* h card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93851EFB616400D77E36 /* h card.png */; };
-		55FA93A71EFB616400D77E36 /* Lit d.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93861EFB616400D77E36 /* Lit d.png */; };
-		55FA93A81EFB616400D77E36 /* Lit h.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93871EFB616400D77E36 /* Lit h.png */; };
-		55FA93A91EFB616400D77E36 /* Lit m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93881EFB616400D77E36 /* Lit m1.png */; };
-		55FA93AA1EFB616500D77E36 /* Lit m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93891EFB616400D77E36 /* Lit m2.png */; };
-		55FA93AB1EFB616500D77E36 /* Lit r.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938A1EFB616400D77E36 /* Lit r.png */; };
-		55FA93AC1EFB616500D77E36 /* m card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938B1EFB616400D77E36 /* m card.png */; };
-		55FA93AD1EFB616500D77E36 /* m2 card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938C1EFB616400D77E36 /* m2 card.png */; };
-		55FA93AE1EFB616500D77E36 /* r card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938D1EFB616400D77E36 /* r card.png */; };
-		55FA93AF1EFB616500D77E36 /* failure button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938E1EFB616400D77E36 /* failure button.png */; };
-		55FA93B01EFB616500D77E36 /* d card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA938F1EFB616400D77E36 /* d card.png */; };
-		55FA93B11EFB616500D77E36 /* instructions card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93901EFB616400D77E36 /* instructions card.png */; };
-		55FA93B21EFB616500D77E36 /* Faded d.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93911EFB616400D77E36 /* Faded d.png */; };
-		55FA93B31EFB616500D77E36 /* Faded h.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93921EFB616400D77E36 /* Faded h.png */; };
-		55FA93B41EFB616500D77E36 /* Faded m1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93931EFB616400D77E36 /* Faded m1.png */; };
-		55FA93B51EFB616500D77E36 /* Faded m2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93941EFB616400D77E36 /* Faded m2.png */; };
-		55FA93B61EFB616500D77E36 /* Faded r.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93951EFB616400D77E36 /* Faded r.png */; };
 		55FA93B71EFB616500D77E36 /* tutorial text 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93961EFB616400D77E36 /* tutorial text 4.png */; };
 		55FA93B81EFB616500D77E36 /* next button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93971EFB616400D77E36 /* next button.png */; };
 		55FA93B91EFB616500D77E36 /* tutorial image 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93981EFB616400D77E36 /* tutorial image 1.png */; };
@@ -50,7 +34,6 @@
 		55FA93BD1EFB616500D77E36 /* tutorial text 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA939C1EFB616400D77E36 /* tutorial text 1.png */; };
 		55FA93BE1EFB616500D77E36 /* tutorial text 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA939D1EFB616400D77E36 /* tutorial text 2.png */; };
 		55FA93BF1EFB616500D77E36 /* tutorial text 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA939E1EFB616400D77E36 /* tutorial text 3.png */; };
-		55FA93C01EFB616500D77E36 /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA939F1EFB616400D77E36 /* back button.png */; };
 		55FA93C11EFB616500D77E36 /* background with logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A01EFB616400D77E36 /* background with logo.png */; };
 		55FA93C21EFB616500D77E36 /* logo and title.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A11EFB616400D77E36 /* logo and title.png */; };
 		55FA93C31EFB616500D77E36 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93A21EFB616400D77E36 /* logo.png */; };
@@ -89,8 +72,9 @@
 		55928BAA1F4BB11A006A394F /* Trivia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 		55928BAE1F4BB1C6006A394F /* TriviaQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriviaQuestion.swift; sourceTree = "<group>"; };
 		55928BB01F4BC1B8006A394F /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
-		55928BB21F4BCBC5006A394F /* Opponent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opponent.png; sourceTree = "<group>"; };
 		55928BB31F4BCBC5006A394F /* Teammate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teammate.png; sourceTree = "<group>"; };
+		55CB53AC1F8DAC6D00253B65 /* ChooseModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseModeViewController.swift; sourceTree = "<group>"; };
+		55F7275D1FD656A10008E652 /* Opponent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opponent.png; sourceTree = "<group>"; };
 		55FA93511EFB58BD00D77E36 /* hmmrd-lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hmmrd-lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FA93541EFB58BD00D77E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FA93561EFB58BD00D77E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,23 +90,6 @@
 		55FA93761EFB58BD00D77E36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55FA93831EFB616400D77E36 /* skip button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "skip button.png"; sourceTree = "<group>"; };
 		55FA93841EFB616400D77E36 /* success button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success button.png"; sourceTree = "<group>"; };
-		55FA93851EFB616400D77E36 /* h card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "h card.png"; sourceTree = "<group>"; };
-		55FA93861EFB616400D77E36 /* Lit d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lit d.png"; sourceTree = "<group>"; };
-		55FA93871EFB616400D77E36 /* Lit h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lit h.png"; sourceTree = "<group>"; };
-		55FA93881EFB616400D77E36 /* Lit m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lit m1.png"; sourceTree = "<group>"; };
-		55FA93891EFB616400D77E36 /* Lit m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lit m2.png"; sourceTree = "<group>"; };
-		55FA938A1EFB616400D77E36 /* Lit r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lit r.png"; sourceTree = "<group>"; };
-		55FA938B1EFB616400D77E36 /* m card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m card.png"; sourceTree = "<group>"; };
-		55FA938C1EFB616400D77E36 /* m2 card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "m2 card.png"; sourceTree = "<group>"; };
-		55FA938D1EFB616400D77E36 /* r card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r card.png"; sourceTree = "<group>"; };
-		55FA938E1EFB616400D77E36 /* failure button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "failure button.png"; sourceTree = "<group>"; };
-		55FA938F1EFB616400D77E36 /* d card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d card.png"; sourceTree = "<group>"; };
-		55FA93901EFB616400D77E36 /* instructions card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "instructions card.png"; sourceTree = "<group>"; };
-		55FA93911EFB616400D77E36 /* Faded d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faded d.png"; sourceTree = "<group>"; };
-		55FA93921EFB616400D77E36 /* Faded h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faded h.png"; sourceTree = "<group>"; };
-		55FA93931EFB616400D77E36 /* Faded m1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faded m1.png"; sourceTree = "<group>"; };
-		55FA93941EFB616400D77E36 /* Faded m2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faded m2.png"; sourceTree = "<group>"; };
-		55FA93951EFB616400D77E36 /* Faded r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Faded r.png"; sourceTree = "<group>"; };
 		55FA93961EFB616400D77E36 /* tutorial text 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial text 4.png"; sourceTree = "<group>"; };
 		55FA93971EFB616400D77E36 /* next button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next button.png"; sourceTree = "<group>"; };
 		55FA93981EFB616400D77E36 /* tutorial image 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial image 1.png"; sourceTree = "<group>"; };
@@ -132,7 +99,6 @@
 		55FA939C1EFB616400D77E36 /* tutorial text 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial text 1.png"; sourceTree = "<group>"; };
 		55FA939D1EFB616400D77E36 /* tutorial text 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial text 2.png"; sourceTree = "<group>"; };
 		55FA939E1EFB616400D77E36 /* tutorial text 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tutorial text 3.png"; sourceTree = "<group>"; };
-		55FA939F1EFB616400D77E36 /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button.png"; sourceTree = "<group>"; };
 		55FA93A01EFB616400D77E36 /* background with logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background with logo.png"; sourceTree = "<group>"; };
 		55FA93A11EFB616400D77E36 /* logo and title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo and title.png"; sourceTree = "<group>"; };
 		55FA93A21EFB616400D77E36 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
@@ -242,27 +208,10 @@
 		55FA93821EFB5C7C00D77E36 /* UI Elements */ = {
 			isa = PBXGroup;
 			children = (
-				55928BB21F4BCBC5006A394F /* Opponent.png */,
+				55F7275D1FD656A10008E652 /* Opponent.png */,
 				55928BB31F4BCBC5006A394F /* Teammate.png */,
 				55FA93831EFB616400D77E36 /* skip button.png */,
 				55FA93841EFB616400D77E36 /* success button.png */,
-				55FA93851EFB616400D77E36 /* h card.png */,
-				55FA93861EFB616400D77E36 /* Lit d.png */,
-				55FA93871EFB616400D77E36 /* Lit h.png */,
-				55FA93881EFB616400D77E36 /* Lit m1.png */,
-				55FA93891EFB616400D77E36 /* Lit m2.png */,
-				55FA938A1EFB616400D77E36 /* Lit r.png */,
-				55FA938B1EFB616400D77E36 /* m card.png */,
-				55FA938C1EFB616400D77E36 /* m2 card.png */,
-				55FA938D1EFB616400D77E36 /* r card.png */,
-				55FA938E1EFB616400D77E36 /* failure button.png */,
-				55FA938F1EFB616400D77E36 /* d card.png */,
-				55FA93901EFB616400D77E36 /* instructions card.png */,
-				55FA93911EFB616400D77E36 /* Faded d.png */,
-				55FA93921EFB616400D77E36 /* Faded h.png */,
-				55FA93931EFB616400D77E36 /* Faded m1.png */,
-				55FA93941EFB616400D77E36 /* Faded m2.png */,
-				55FA93951EFB616400D77E36 /* Faded r.png */,
 				55FA93961EFB616400D77E36 /* tutorial text 4.png */,
 				55FA93971EFB616400D77E36 /* next button.png */,
 				55FA93981EFB616400D77E36 /* tutorial image 1.png */,
@@ -272,7 +221,6 @@
 				55FA939C1EFB616400D77E36 /* tutorial text 1.png */,
 				55FA939D1EFB616400D77E36 /* tutorial text 2.png */,
 				55FA939E1EFB616400D77E36 /* tutorial text 3.png */,
-				55FA939F1EFB616400D77E36 /* back button.png */,
 				55FA93A01EFB616400D77E36 /* background with logo.png */,
 				55FA93A11EFB616400D77E36 /* logo and title.png */,
 				55FA93A21EFB616400D77E36 /* logo.png */,
@@ -300,6 +248,7 @@
 				55928BB01F4BC1B8006A394F /* InstructionsViewController.swift */,
 				55FA93D81EFCCAA000D77E36 /* DescriptionViewController.swift */,
 				55928BA81F4BAF8E006A394F /* TriviaViewController.swift */,
+				55CB53AC1F8DAC6D00253B65 /* ChooseModeViewController.swift */,
 			);
 			name = Controllers;
 			path = "hmmrd-lite/Controllers";
@@ -445,43 +394,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55FA93B21EFB616500D77E36 /* Faded d.png in Resources */,
-				55FA93B41EFB616500D77E36 /* Faded m1.png in Resources */,
 				55FA93BA1EFB616500D77E36 /* tutorial image 2.png in Resources */,
 				55FA935F1EFB58BD00D77E36 /* LaunchScreen.storyboard in Resources */,
-				55FA93AE1EFB616500D77E36 /* r card.png in Resources */,
-				55FA93B31EFB616500D77E36 /* Faded h.png in Resources */,
 				55FA93B81EFB616500D77E36 /* next button.png in Resources */,
 				55FA93A41EFB616400D77E36 /* skip button.png in Resources */,
 				55928BB51F4BCBC5006A394F /* Teammate.png in Resources */,
-				55FA93A71EFB616400D77E36 /* Lit d.png in Resources */,
 				55FA93BE1EFB616500D77E36 /* tutorial text 2.png in Resources */,
 				55FA93B71EFB616500D77E36 /* tutorial text 4.png in Resources */,
 				55FA93C31EFB616500D77E36 /* logo.png in Resources */,
-				55928BB41F4BCBC5006A394F /* Opponent.png in Resources */,
-				55FA93AD1EFB616500D77E36 /* m2 card.png in Resources */,
-				55FA93AA1EFB616500D77E36 /* Lit m2.png in Resources */,
-				55FA93AC1EFB616500D77E36 /* m card.png in Resources */,
 				55FA93A51EFB616400D77E36 /* success button.png in Resources */,
-				55FA93C01EFB616500D77E36 /* back button.png in Resources */,
 				55FA93B91EFB616500D77E36 /* tutorial image 1.png in Resources */,
-				55FA93AF1EFB616500D77E36 /* failure button.png in Resources */,
-				55FA93B61EFB616500D77E36 /* Faded r.png in Resources */,
-				55FA93A61EFB616400D77E36 /* h card.png in Resources */,
 				55FA93BD1EFB616500D77E36 /* tutorial text 1.png in Resources */,
-				55FA93A81EFB616400D77E36 /* Lit h.png in Resources */,
-				55FA93B11EFB616500D77E36 /* instructions card.png in Resources */,
-				55FA93B01EFB616500D77E36 /* d card.png in Resources */,
 				55FA93C11EFB616500D77E36 /* background with logo.png in Resources */,
 				55FA93C21EFB616500D77E36 /* logo and title.png in Resources */,
-				55FA93AB1EFB616500D77E36 /* Lit r.png in Resources */,
 				55FA93BB1EFB616500D77E36 /* tutorial image 3.png in Resources */,
-				55FA93A91EFB616400D77E36 /* Lit m1.png in Resources */,
 				55FA935C1EFB58BD00D77E36 /* Assets.xcassets in Resources */,
-				55FA93B51EFB616500D77E36 /* Faded m2.png in Resources */,
 				55FA93C41EFB616500D77E36 /* start game button.png in Resources */,
 				55FA93BC1EFB616500D77E36 /* tutorial image 4.png in Resources */,
 				55FA93BF1EFB616500D77E36 /* tutorial text 3.png in Resources */,
+				55F727641FD656A10008E652 /* Opponent.png in Resources */,
 				55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */,
 				55FA93C61EFB621400D77E36 /* GoogleService-Info.plist in Resources */,
 			);
@@ -653,6 +584,7 @@
 				55928BA91F4BAF8E006A394F /* TriviaViewController.swift in Sources */,
 				55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */,
 				55FA93D21EFB66A100D77E36 /* Card.swift in Sources */,
+				55CB53AD1F8DAC6D00253B65 /* ChooseModeViewController.swift in Sources */,
 				55928BB11F4BC1B8006A394F /* InstructionsViewController.swift in Sources */,
 				55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */,
 				55FA93D91EFCCAA000D77E36 /* DescriptionViewController.swift in Sources */,

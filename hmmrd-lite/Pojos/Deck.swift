@@ -50,6 +50,11 @@ class Deck {
       if let card = item as? Dictionary<String, Any> {
         var suit:Card.Suit = .invalid
         var rank:Int = 0
+        // TODO(michael) maybe just drop the card and print an error if a card is broken instead of crashing the app...
+
+        // debug if something breaks
+        //print(headCount + muscleCount + moxieCount + randomCount + drinkCount)
+        //print(card);
         switch card["Type"] as! String {
         case "head":
           headCount+=1
@@ -104,6 +109,14 @@ class Deck {
       }
     }
     order.shuffle()
+  }
+
+  func setUpHouseMode() {
+    // do house mode specific things here
+  }
+
+  func setUpBarMode() {
+    // do bar mode specific things here
   }
 
   func hasNextCard() -> Bool {

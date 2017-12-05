@@ -12,11 +12,13 @@ target 'hmmrd-lite' do
   target 'hmmrd-liteTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase'
   end
 
   target 'hmmrd-liteUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Firebase'
   end
 
 end

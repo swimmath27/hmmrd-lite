@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import hmmrd_lite
 
 class hmmrd_liteTests: XCTestCase {
   
