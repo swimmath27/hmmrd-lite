@@ -50,15 +50,14 @@ class Trivia {
         let tq = TriviaQuestion(question: q, answers: a)
         tqs.append(tq)
       }
-      categoryQuestions[category] = tqs
+      categoryQuestions[category.lowercased()] = tqs
     }
     objc_sync_exit(categoryQuestions)
   }
 
-
   func getQuestion(category: String) -> TriviaQuestion {
     print("cat: \(category)");
-    if let questions = categoryQuestions[category] {
+    if let questions = categoryQuestions[category.lowercased()] {
       return questions[Int(arc4random_uniform(UInt32(questions.count)))]
     }
     return TriviaQuestion();

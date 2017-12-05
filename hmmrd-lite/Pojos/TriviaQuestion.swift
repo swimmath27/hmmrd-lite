@@ -12,11 +12,9 @@ class TriviaQuestion: CustomStringConvertible {
   fileprivate(set) var question:String = ""
   fileprivate(set) var answers:[String] = [String]()
 
-
   convenience init() {
     self.init(question: "", answers: []);
   }
-
 
   init(question:String, answers:[String]) {
     self.question = question
@@ -25,5 +23,9 @@ class TriviaQuestion: CustomStringConvertible {
   
   public var description: String {
     return "\n\(question)\n\(answers)\n"
+  }
+
+  public func isEmpty() -> Bool {
+    return self.question == "" && self.answers == [];
   }
 }
