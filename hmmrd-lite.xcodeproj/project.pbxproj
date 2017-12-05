@@ -16,6 +16,26 @@
 		55928BB51F4BCBC5006A394F /* Teammate.png in Resources */ = {isa = PBXBuildFile; fileRef = 55928BB31F4BCBC5006A394F /* Teammate.png */; };
 		55CB53AD1F8DAC6D00253B65 /* ChooseModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CB53AC1F8DAC6D00253B65 /* ChooseModeViewController.swift */; };
 		55F727641FD656A10008E652 /* Opponent.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7275D1FD656A10008E652 /* Opponent.png */; };
+		55F727A51FD65A850008E652 /* nodrink_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727911FD65A830008E652 /* nodrink_icon.png */; };
+		55F727A61FD65A850008E652 /* opponent_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727921FD65A830008E652 /* opponent_3.png */; };
+		55F727A71FD65A850008E652 /* card_front.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727931FD65A830008E652 /* card_front.png */; };
+		55F727A81FD65A850008E652 /* house_mode_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727941FD65A830008E652 /* house_mode_icon.png */; };
+		55F727A91FD65A850008E652 /* teammate_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727951FD65A830008E652 /* teammate_1.png */; };
+		55F727AA1FD65A850008E652 /* opponent_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727961FD65A830008E652 /* opponent_2.png */; };
+		55F727AB1FD65A850008E652 /* bar_mode_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727971FD65A840008E652 /* bar_mode_icon.png */; };
+		55F727AC1FD65A850008E652 /* logo_hex_nobackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727981FD65A840008E652 /* logo_hex_nobackground.png */; };
+		55F727AD1FD65A850008E652 /* card_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727991FD65A840008E652 /* card_back.png */; };
+		55F727AE1FD65A850008E652 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279A1FD65A840008E652 /* reload.png */; };
+		55F727AF1FD65A850008E652 /* cards_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279B1FD65A840008E652 /* cards_icon.png */; };
+		55F727B01FD65A850008E652 /* logo_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279C1FD65A840008E652 /* logo_background.png */; };
+		55F727B11FD65A850008E652 /* opponent_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279D1FD65A840008E652 /* opponent_1.png */; };
+		55F727B21FD65A850008E652 /* teammate_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279E1FD65A840008E652 /* teammate_3.png */; };
+		55F727B31FD65A850008E652 /* trivia_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F7279F1FD65A840008E652 /* trivia_card.png */; };
+		55F727B41FD65A850008E652 /* logo_hex.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727A01FD65A840008E652 /* logo_hex.png */; };
+		55F727B51FD65A850008E652 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727A11FD65A850008E652 /* home.png */; };
+		55F727B61FD65A850008E652 /* hmmrd_self_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727A21FD65A850008E652 /* hmmrd_self_icon.png */; };
+		55F727B71FD65A850008E652 /* teammate_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727A31FD65A850008E652 /* teammate_2.png */; };
+		55F727B81FD65A850008E652 /* drink_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F727A41FD65A850008E652 /* drink_icon.png */; };
 		55FA93551EFB58BD00D77E36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93541EFB58BD00D77E36 /* AppDelegate.swift */; };
 		55FA93571EFB58BD00D77E36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA93561EFB58BD00D77E36 /* ViewController.swift */; };
 		55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FA93581EFB58BD00D77E36 /* Main.storyboard */; };
@@ -75,6 +95,26 @@
 		55928BB31F4BCBC5006A394F /* Teammate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teammate.png; sourceTree = "<group>"; };
 		55CB53AC1F8DAC6D00253B65 /* ChooseModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseModeViewController.swift; sourceTree = "<group>"; };
 		55F7275D1FD656A10008E652 /* Opponent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opponent.png; sourceTree = "<group>"; };
+		55F727911FD65A830008E652 /* nodrink_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nodrink_icon.png; sourceTree = "<group>"; };
+		55F727921FD65A830008E652 /* opponent_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opponent_3.png; sourceTree = "<group>"; };
+		55F727931FD65A830008E652 /* card_front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_front.png; sourceTree = "<group>"; };
+		55F727941FD65A830008E652 /* house_mode_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house_mode_icon.png; sourceTree = "<group>"; };
+		55F727951FD65A830008E652 /* teammate_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teammate_1.png; sourceTree = "<group>"; };
+		55F727961FD65A830008E652 /* opponent_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opponent_2.png; sourceTree = "<group>"; };
+		55F727971FD65A840008E652 /* bar_mode_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_mode_icon.png; sourceTree = "<group>"; };
+		55F727981FD65A840008E652 /* logo_hex_nobackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hex_nobackground.png; sourceTree = "<group>"; };
+		55F727991FD65A840008E652 /* card_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_back.png; sourceTree = "<group>"; };
+		55F7279A1FD65A840008E652 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		55F7279B1FD65A840008E652 /* cards_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_icon.png; sourceTree = "<group>"; };
+		55F7279C1FD65A840008E652 /* logo_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_background.png; sourceTree = "<group>"; };
+		55F7279D1FD65A840008E652 /* opponent_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opponent_1.png; sourceTree = "<group>"; };
+		55F7279E1FD65A840008E652 /* teammate_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teammate_3.png; sourceTree = "<group>"; };
+		55F7279F1FD65A840008E652 /* trivia_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trivia_card.png; sourceTree = "<group>"; };
+		55F727A01FD65A840008E652 /* logo_hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_hex.png; sourceTree = "<group>"; };
+		55F727A11FD65A850008E652 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		55F727A21FD65A850008E652 /* hmmrd_self_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hmmrd_self_icon.png; sourceTree = "<group>"; };
+		55F727A31FD65A850008E652 /* teammate_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teammate_2.png; sourceTree = "<group>"; };
+		55F727A41FD65A850008E652 /* drink_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drink_icon.png; sourceTree = "<group>"; };
 		55FA93511EFB58BD00D77E36 /* hmmrd-lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hmmrd-lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FA93541EFB58BD00D77E36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55FA93561EFB58BD00D77E36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -208,6 +248,26 @@
 		55FA93821EFB5C7C00D77E36 /* UI Elements */ = {
 			isa = PBXGroup;
 			children = (
+				55F727971FD65A840008E652 /* bar_mode_icon.png */,
+				55F727991FD65A840008E652 /* card_back.png */,
+				55F727931FD65A830008E652 /* card_front.png */,
+				55F7279B1FD65A840008E652 /* cards_icon.png */,
+				55F727A41FD65A850008E652 /* drink_icon.png */,
+				55F727A21FD65A850008E652 /* hmmrd_self_icon.png */,
+				55F727A11FD65A850008E652 /* home.png */,
+				55F727941FD65A830008E652 /* house_mode_icon.png */,
+				55F7279C1FD65A840008E652 /* logo_background.png */,
+				55F727981FD65A840008E652 /* logo_hex_nobackground.png */,
+				55F727A01FD65A840008E652 /* logo_hex.png */,
+				55F727911FD65A830008E652 /* nodrink_icon.png */,
+				55F7279D1FD65A840008E652 /* opponent_1.png */,
+				55F727961FD65A830008E652 /* opponent_2.png */,
+				55F727921FD65A830008E652 /* opponent_3.png */,
+				55F7279A1FD65A840008E652 /* reload.png */,
+				55F727951FD65A830008E652 /* teammate_1.png */,
+				55F727A31FD65A850008E652 /* teammate_2.png */,
+				55F7279E1FD65A840008E652 /* teammate_3.png */,
+				55F7279F1FD65A840008E652 /* trivia_card.png */,
 				55F7275D1FD656A10008E652 /* Opponent.png */,
 				55928BB31F4BCBC5006A394F /* Teammate.png */,
 				55FA93831EFB616400D77E36 /* skip button.png */,
@@ -395,26 +455,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				55FA93BA1EFB616500D77E36 /* tutorial image 2.png in Resources */,
+				55F727A61FD65A850008E652 /* opponent_3.png in Resources */,
 				55FA935F1EFB58BD00D77E36 /* LaunchScreen.storyboard in Resources */,
 				55FA93B81EFB616500D77E36 /* next button.png in Resources */,
+				55F727A81FD65A850008E652 /* house_mode_icon.png in Resources */,
 				55FA93A41EFB616400D77E36 /* skip button.png in Resources */,
+				55F727B31FD65A850008E652 /* trivia_card.png in Resources */,
+				55F727A51FD65A850008E652 /* nodrink_icon.png in Resources */,
 				55928BB51F4BCBC5006A394F /* Teammate.png in Resources */,
+				55F727B01FD65A850008E652 /* logo_background.png in Resources */,
 				55FA93BE1EFB616500D77E36 /* tutorial text 2.png in Resources */,
 				55FA93B71EFB616500D77E36 /* tutorial text 4.png in Resources */,
+				55F727B51FD65A850008E652 /* home.png in Resources */,
+				55F727B61FD65A850008E652 /* hmmrd_self_icon.png in Resources */,
 				55FA93C31EFB616500D77E36 /* logo.png in Resources */,
 				55FA93A51EFB616400D77E36 /* success button.png in Resources */,
+				55F727B71FD65A850008E652 /* teammate_2.png in Resources */,
 				55FA93B91EFB616500D77E36 /* tutorial image 1.png in Resources */,
+				55F727AB1FD65A850008E652 /* bar_mode_icon.png in Resources */,
+				55F727A91FD65A850008E652 /* teammate_1.png in Resources */,
+				55F727B41FD65A850008E652 /* logo_hex.png in Resources */,
+				55F727AA1FD65A850008E652 /* opponent_2.png in Resources */,
 				55FA93BD1EFB616500D77E36 /* tutorial text 1.png in Resources */,
 				55FA93C11EFB616500D77E36 /* background with logo.png in Resources */,
 				55FA93C21EFB616500D77E36 /* logo and title.png in Resources */,
 				55FA93BB1EFB616500D77E36 /* tutorial image 3.png in Resources */,
 				55FA935C1EFB58BD00D77E36 /* Assets.xcassets in Resources */,
 				55FA93C41EFB616500D77E36 /* start game button.png in Resources */,
+				55F727AF1FD65A850008E652 /* cards_icon.png in Resources */,
+				55F727AD1FD65A850008E652 /* card_back.png in Resources */,
+				55F727B81FD65A850008E652 /* drink_icon.png in Resources */,
 				55FA93BC1EFB616500D77E36 /* tutorial image 4.png in Resources */,
+				55F727A71FD65A850008E652 /* card_front.png in Resources */,
 				55FA93BF1EFB616500D77E36 /* tutorial text 3.png in Resources */,
 				55F727641FD656A10008E652 /* Opponent.png in Resources */,
 				55FA935A1EFB58BD00D77E36 /* Main.storyboard in Resources */,
+				55F727AE1FD65A850008E652 /* reload.png in Resources */,
+				55F727B21FD65A850008E652 /* teammate_3.png in Resources */,
 				55FA93C61EFB621400D77E36 /* GoogleService-Info.plist in Resources */,
+				55F727B11FD65A850008E652 /* opponent_1.png in Resources */,
+				55F727AC1FD65A850008E652 /* logo_hex_nobackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
