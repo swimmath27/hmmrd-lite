@@ -296,7 +296,7 @@
                                     <constraint firstAttribute="height" constant="128" id="v3B-yN-Jce"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Teammate.png" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-xA-gQO" userLabel="opp">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Opponent.png" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-xA-gQO" userLabel="opp">
                                 <rect key="frame" x="247" y="500" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="09C-se-old"/>
@@ -480,6 +480,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Opponent.png" width="128" height="128"/>
         <image name="Teammate.png" width="128" height="128"/>
         <image name="logo and title.png" width="595" height="663"/>
         <image name="logo.png" width="595" height="510"/>
